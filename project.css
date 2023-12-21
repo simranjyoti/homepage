@@ -1,0 +1,638 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.template{
+    width: 1300px;
+    margin: 0 auto;
+}
+nav{
+    height: 70px;
+    width: auto;
+    background-color: rgb(255, 254, 251);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(199, 199, 199);
+}
+.logo{}
+.logo img{
+    padding: 10px 10px 10px 20px;
+    /* color: blue; */
+}
+.list{}
+.list ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;}
+.list ul li{
+    list-style: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.rlist i{
+    padding-right: 20px;
+   cursor: pointer;
+
+}
+.rlist span{
+    padding-left: 5px;
+}
+
+.rlist a{
+    text-transform: capitalize;
+    background-color: orangered;
+    color: white;
+    border: 1px solid white solid orangered;
+    padding: 5px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.first{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(135, 3, 89);
+     /* text-align: center; */
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+
+}
+.secpara{
+    padding-top: 170px;
+}
+.secpara h2{
+   color: white;
+   font-size: 40px;
+   text-transform: capitalize;
+   padding-top: 15px;
+   padding-left: 130px;
+}
+.secpara h6{
+    color: rgb(225, 15, 15);
+    padding-left: 130px;
+}
+.secpara h5{
+    padding-left: 130px;
+    padding-top: 20px;
+    color: rgb(222, 217, 217);
+    padding-bottom: 40px;
+}
+.secpara a{
+    margin-left: 130px;
+    border: 1px solid white solid orangered;
+    background-color: orangered;
+    padding: 7px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.secimg{}
+.secimg img{
+width: 400px;
+height: 400px;
+border-radius: 100%;
+margin: 100px 150px 40px 10px;
+}
+.second{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    gap: 5px;
+}
+.secimg2 img{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    margin: 90px 10px 30px 150px;
+}
+span{
+    color: blue;
+    font-size: 20px;
+}
+.secpara2 h2{
+    padding-right: 90px;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-top: 5px;
+ }
+ .secpara2 h6{
+    padding-right: 90px;
+    padding-top: 110px;
+     color: rgb(225, 109, 15);
+     text-transform: capitalize;
+ }
+ .secpara2 h5{
+    padding-right: 90px;
+     padding-top: 20px;
+     padding-bottom: 10px;
+     text-transform: capitalize;
+ }
+.secpara2 a{
+    border: 1px solid white solid orangered;
+    background-color: orangered;
+    padding: 7px 15px;
+  text-decoration: none;
+}
+.skill-rate{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.skill-rate p{
+    padding-bottom: 15px;
+}
+.rate-outer{
+    width: 400px;
+    height: 5px;
+    background-color: rgb(168, 168, 168);
+    border-radius: 5px;
+}
+.third{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(135, 3, 89);
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+
+}
+.secimg3 img{
+    height: 400px;
+    width: 500px;
+    padding-top: 100px;
+}
+.secpara3 h2{
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-top: 15px;
+ }
+ .secpara3 h6{
+    padding-top: 100px;
+    color: rgb(225, 15, 15);
+}
+.container{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    /* grid-template-columns: repeat(2, 200px); */
+   gap: 8px;
+    
+}
+.box{ 
+         color: white;
+         padding: 25px;
+        border: 2px solid  rgb(135, 4, 89);
+        box-shadow: 10px 10px rgb(99, 1, 65) ;
+        font-size: 30px;
+        text-align: center;
+        line-height: 30px;
+}
+.box div{
+    font-size: 16px;
+    color: red;
+}
+.fourth{
+    height: 750px;
+    width: 100%;
+    background-color: rgba(244, 244, 244, 0.952);
+}
+.secpara4{
+    padding-top: 30px;
+text-align: center;
+}
+
+.secpara4 h6{
+ text-transform: uppercase;
+    color: red;
+}
+.secpara4 h2{
+    padding-top: 5px;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: black;
+}
+.container2{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: repeat(2, 250px);
+    justify-content: center;
+    align-content: center;
+    gap: 12px;
+}
+.item i{
+    margin-top: 40px;
+    height: 15px;
+    width: 15px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 100%;
+    background-color:  rgb(135, 3, 89);
+    padding: 12px;
+}
+.item h4{
+    padding-top: 20px;
+}
+.item p{
+    padding-top: 10px;
+}
+.item{
+    background-color: white;
+    border: 1px solid white solid rgb(251, 251, 251);
+    text-align: center;
+    line-height: 20px;
+}
+.fifth{
+    height: 650px;
+    width: 100%;  
+}
+.secpara5{
+    padding-top: 30px;
+    /* color: silver; */
+text-align: center;
+}
+.secpara5 h6{
+    color: red;
+    text-transform: uppercase;
+}
+.secpara5 h2{
+    padding-top: 5px;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: black;
+}
+.con3{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    /* grid-template-rows: repeat(2, 250px); */
+    grid-template-rows: 280px;
+    justify-content: center;
+    align-content: center;
+    gap: 12px;
+}
+.secit{
+    background-color: rgba(236, 236, 236, 0.886);
+    /* background-color: rgba(169, 169, 169, 0.997);
+    opacity: 0.6; */
+    border: 1px solid white solid rgb(0, 0, 0);
+    border-radius: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+.secit img{
+    border-radius: 100%;
+    height: 280px;
+    width: 280px;
+}
+.sixth{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(135, 3, 89);
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.secpara6{
+    /* padding-top: px; */
+    padding-left: 150px;
+}
+.secpara6 span{
+    color: white;
+    font-size: 15px;
+}
+.secpara6 h2{
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-top: 15px;
+ }
+ .secpara6 h6{
+    padding-top: 100px;
+    color: rgb(225, 15, 15);
+}
+.secpara6 h5{
+    color: rgb(251, 247, 247);
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+.box6{
+    margin-top: 30px;
+    height: 200px;
+    width: 400px; 
+    border: 2px solid rgb(115, 4, 76);
+    background-color: rgba(129, 7, 86, 0.105);
+}
+.box6 h5{
+    padding-top: 40px;
+    color: white;
+    padding-left: 5px;
+}
+.box7{
+    margin-top: 8px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid white solid white;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    gap: 125px;
+}
+.box7 h4{
+    /* padding-top: 8px; */
+     color: white; 
+text-transform: capitalize;
+}
+.container4{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: repeat(3,150px);
+    /* grid-template-columns: repeat(2, 200px); */
+   gap: 8px;
+   padding-top: 65px;
+    padding-right: 150px;
+}
+.it{ 
+         color: white;
+         padding: 25px;
+        border: 2px solid  rgb(135, 4, 89);
+        box-shadow: 5px 5px rgb(99, 1, 65) ;
+        font-size: 30px;
+        text-align: center;
+        line-height: 20px;
+}
+.it i{
+    padding-top:10px ;
+    color: rgba(255, 248, 201, 0.85);
+}
+.it div{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.seven{
+    /* color: azure; */
+    background-color: #ebebeb;
+    height: 580px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    
+}
+.left{
+    margin-left: 150px;
+    margin-top: 120px;
+}
+.left h6{
+    padding-top: 30px;
+    color: red;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+.left span{
+    color: black;
+    padding-left: 8px;
+    font-size: 10px;
+}
+.left h2{
+    text-transform: capitalize;
+padding-top: 20px;
+}
+.box9{
+    margin-top: 45px;
+    height: 150px;
+    width: 500px;
+    background-color: white;
+    color: black;
+    position: relative;
+}
+.box9 h4{ 
+    padding-top: 10px;
+    text-transform: capitalize;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.box9 p{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.box9 i{
+    position: absolute;
+       top: 15px;
+       right: 15px;
+}
+.box10{
+    margin-top: 15px;
+    height: 40px;
+    width: 500px;
+    background-color: white;
+    position: relative;
+}
+.box10 h4{
+   text-transform: capitalize;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.box10 i{
+    position: absolute;
+       top: 15px;
+       right: 15px;
+}
+.box11{  
+    margin-top: 15px;
+    height: 40px;
+    width: 500px;
+background-color: white;
+position: relative;
+}
+.box11 h4{
+padding-left: 20px;
+padding-top: 10px;
+text-transform: capitalize;
+}
+.box11 i{
+    position: absolute;
+       top: 15px;
+       right: 15px;
+}
+.box8{
+    border: 1px solid white solid white;
+    height: 380px;
+    width: 390px;
+    background-color: white;
+    margin-right: 150px;
+    margin-top: 120px;
+    /* text-align: center; */
+}
+.box8 h3{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+.box8 h5{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+.box8 input{
+    text-transform: capitalize;
+    padding: 10px 140px 10px 20px;
+    margin: 10px 10px 10px 30px;
+    background-color: rgb(241, 241, 241) ;
+}
+.box8 button{
+    cursor: pointer;
+    background-color: orangered;
+    width: 330px;
+    height: 40px;
+    text-transform: capitalize;
+    margin: 10px 10px 10px 30px;
+    text-align: center;
+    color: white;
+}
+.eight{
+    height: 640px;
+    width: 100%;  
+}
+.secpara8{
+    padding-top: 30px;
+    /* color: silver; */
+text-align: center;
+}
+.secpara8 h6{
+    color: red;
+    text-transform: uppercase;
+}
+.secpara8 h2{
+    padding-top: 5px;
+    text-transform: capitalize;
+    font-size: 40px;
+    color: black;
+}
+.secpara8 h5{
+    padding-top: 5px;
+}
+.con4{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    /* grid-template-rows: repeat(2, 250px); */
+    grid-template-rows: 400px;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+.secitem{
+    background-color: rgba(253, 253, 253, 0.965);
+    border: 1px solid white solid rgb(249, 249, 249);
+    box-shadow: 10px 10px  rgba(244, 244, 244, 0.965);;
+    text-align: center;
+    line-height: 40px;
+}
+.secitem img{
+  height: 230px;
+  width: 280px;
+  padding: 10px 10px;
+}
+.nine{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(135, 3, 89);  
+}
+.logo2 img{
+  padding: 30px 220px;
+  width: 150px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 400px;
+    color: white;
+    margin: 130px 200px 50px 230px; 
+}
+.box12{}
+.box12 h3{
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.box12 p{
+    padding-top: 30px;
+}
+.box13{
+    padding-left: 20px;
+}
+.box13 h3{
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.box13 ul{
+    padding-top: 30px;
+}
+.box13 ul li{
+    text-transform: capitalize ;
+    list-style: none;
+    padding: 7px;
+}
+.box14{
+    padding-left: 20px;
+}
+.box14 span{color: white;
+    padding-top: 20px;}
+        /* font-size:19px;} */
+.box14 h3{
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.box14 h5{
+    padding-top: 30px;
+
+}
+.box15{ 
+    padding-left: 20px;
+}
+.box15 h3{
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    /* padding-bottom: 30px; */
+}
+.box15 input[type="text"]{
+    margin-top: 30px;
+    border: 1px solid white;
+    padding:10px 45px 10px 10px ;
+    color: white;
+    background-color: rgb(135, 3, 89);  
+    margin-bottom: 10px;
+}
+.box15 input::placeholder{
+    color: white;
+}
+.box15 button{
+    border: 1px solid white;
+    width: 225px;
+    height: 40px;
+    color: white;
+    background-color: orangered;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.foote2{
+    display: grid;
+    grid-template-columns: 300px 500px;
+    gap: 40px;
+}
+.foote2 ul{
+    display: flex;
+justify-content: end;
+align-content: end;
+gap: 30px;
+}
+.foote2 ul li{
+    text-transform: capitalize;
+list-style: none;
+}
